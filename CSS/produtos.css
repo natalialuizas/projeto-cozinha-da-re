@@ -1,0 +1,57 @@
+
+.produtos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-deck{   
+     width:80% ;
+}
+
+#arrow-prev, #arrow-next {
+    padding: 15px;
+    font-size: 2rem;
+}
+
+.text-preco{
+    font-weight: bold;
+    color: #009688;
+}
+
+.text-descricao{
+    color: #7d7777ee;
+
+
+}
+
+.text-delivery {
+    font-size: 0.7rem;
+}
+
+
+.card-delivery{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-comprar{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 1px solid #000;
+    color: inherit;
+}
+
+.btn-comprar:hover{
+    background-color:pink;  
+}
+
