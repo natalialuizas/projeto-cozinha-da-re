@@ -1,6 +1,6 @@
 
 
-# Projeto| T9 | Front-end | 2020 | Semana 11 | Semana de Projeto com clientes
+# Projeto - Cozinha da Rê
 
 Site desenvoldido pelas alunas da reprograma - Turma 9. 
 
