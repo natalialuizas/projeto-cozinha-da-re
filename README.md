@@ -1,6 +1,6 @@
 
 
-# Projeto - Cozinha da Rê
+# Projeto com clientes
 
 Site desenvoldido pelas alunas da reprograma - Turma 9. 
 
