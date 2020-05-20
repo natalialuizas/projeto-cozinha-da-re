@@ -1,6 +1,6 @@
 
 
-# Projeto com clientes
+# Semana de projeto com clientes
 
 Site desenvoldido pelas alunas da reprograma - Turma 9. 
 
