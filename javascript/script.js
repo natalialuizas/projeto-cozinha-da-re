@@ -3,13 +3,13 @@ const criarCardsProdutos = (produtos) =>
     produtos.reduce((accumulator, {nome,descricao,valor,imgUrl}) => {
         
         accumulator +=`
-        <div class="card card__border">
+        <div class="card card__border card__tamanho">
         <div class="card__box__img">
                         <img class="card-img-top card__img" src="${imgUrl}" alt="Imagem de capa do card">
                         </div>
                         <div class="card-body d-flex flex-column align-items-center">
-                            <h5 class="card-title titulo__produto-card">${nome}</h5>
-                            <p class="card-text text__descricao">${descricao}</p>
+                            <h5 class="card-title titulo__produto-card card__test ">${nome}</h5>
+                            <p class="card-text text__descricao card__test2 ">${descricao}</p>
                             <div class="card-informacao ">
                                 <p class="card-text text__preco">${valor}</p>
                                 

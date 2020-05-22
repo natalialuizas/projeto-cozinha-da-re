@@ -15,14 +15,14 @@ const produtos = [
    }, 
    { 
       nome: 'Bolo de Banana c/ aveia 450g',
-      descricao: 'sem glúten, sem adição de açúcar, contêm ovos',
+      descricao: 'sem glúten, sem adição de açúcar, contém ovos',
       valor: 'R$15,00',
       imgUrl: './img/bolo-de-banana.jpg'
 
    },
    { 
       nome: 'Bolo de Cacau 450g',
-      descricao: ' Vegano, contén glúten, peso sugerido pelo cliente ',
+      descricao: 'Vegano, contén glúten',
       valor: 'R$15,00',
       imgUrl: './img/bolo-de-cacau.jpg'
 
@@ -37,14 +37,14 @@ const produtos = [
   
 { 
    nome: 'Mousse de Maracujá 120g',
-   descricao: '  contém leite ',
+   descricao: 'contém leite',
    valor: 'R$7,00',
    imgUrl: './img/mousse-maracuja.png'
 },
 
 { 
    nome: 'Geleia de Chia Sabor Uva 230 ml',
-   descricao: '  Sem Glúten, pode ser produzido com açúcar orgânico ou xilitol (adoçante natural encontrado nas fibras de vegetais)',
+   descricao: 'Sem Glúten, produzido com açúcar orgânico ou xilitol (adoçante natural)',
    valor: 'R$15,00',
    imgUrl: './img/geleia-de-chia2.jpg'
 },
@@ -71,7 +71,7 @@ nome: 'Creme de Morango 100g',
       },
 
       {
-         nome: 'Sacolas Personalizada ',
+         nome: 'Sacolas Personalizada',
             descricao: 'contém: Pão Integral ou Vegano, Geleia de Chia, Bolo de cacau 150g ou Cupcakes de bolo de banana ',
             valor: ' A partir R$60,00',
             imgUrl: './img/sacola-produtos-presenteavel.jpg'
