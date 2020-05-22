@@ -14,7 +14,7 @@ const criarCardsProdutos = (produtos) =>
                                 <p class="card-text text__preco">${valor}</p>
                                 
                                 <div class="card-delivery">
-                                    <a  class="btn-comprar" href="https://api.whatsapp.com/send?phone=5511988390192&text=trouxa">
+                                    <a  class="btn-comprar" href="https://api.whatsapp.com/send?phone=5511988390192&text=Seja%20bem-vindxs%20a%20cozinha%20da%20R%C3%AA!">
                                      Comprar
                                     </a>
                                 </div>
