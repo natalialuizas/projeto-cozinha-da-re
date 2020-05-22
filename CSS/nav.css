@@ -22,6 +22,37 @@ a:hover {
 .img-banner {
     height: 85vh;
     object-fit: cover;
-    object-position: 0 40%; 
+    object-position: 0 45%; 
+    /* width:500px; */
+}
+
+.logo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 290px;
+    left: 119px;
+    top: -41px;
+}
+
+.logo-txt {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+    left: 60px;
+    top: 850px;
+}
+
+.img-bolo {
+
+}
+
+.img-chia {
+
+}
+
+.img-pao { 
+
 }
 
