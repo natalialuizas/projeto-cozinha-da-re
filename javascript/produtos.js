@@ -8,21 +8,21 @@ const produtos = [
    }, 
    { 
       nome: 'Pão Vegano 450g',
-      descricao: 'contém glúten ',
+      descricao: 'contém glúten',
       valor: 'R$10,00',
-      imgUrl: './img/pão.jpg'
+      imgUrl: './img/Pão-Caseiro-Fofinho.png'
 
    }, 
    { 
       nome: 'Bolo de Banana c/ aveia 450g',
-      descricao: 'sem glúten, sem adição de açúcar, contêm ovos',
+      descricao: 'sem glúten, sem adição de açúcar, contém ovos',
       valor: 'R$15,00',
       imgUrl: './img/bolo-de-banana.jpg'
 
    },
    { 
-      nome: 'Bolo de Cacau',
-      descricao: ' Vegano, contén glúten, peso sugerido pelo cliente ',
+      nome: 'Bolo de Cacau 450g',
+      descricao: 'Vegano, contén glúten',
       valor: 'R$15,00',
       imgUrl: './img/bolo-de-cacau.jpg'
 
@@ -37,19 +37,20 @@ const produtos = [
   
 { 
    nome: 'Mousse de Maracujá 120g',
-   descricao: '  contém leite ',
+   descricao: 'contém leite',
    valor: 'R$7,00',
    imgUrl: './img/mousse-maracuja.png'
 },
 
 { 
    nome: 'Geleia de Chia Sabor Uva 230 ml',
-   descricao: '  Sem Glúten, pode ser produzido com açúcar orgânico ou xilitol (adoçante natural encontrado nas fibras de vegetais)',
+   descricao: 'Sem Glúten, produzido com açúcar orgânico ou xilitol (adoçante natural)',
    valor: 'R$15,00',
-   imgUrl: './img/geleia-de-chia3.jpg'
+   imgUrl: './img/geleia-de-chia2.jpg'
 },
+
 {
-nome: 'Sobremesa Vegana 100g',
+nome: 'Creme de Morango 100g',
    descricao: 'Feita a base de inhame e morango, contém açúcar ',
    valor: 'R$6,00',
    imgUrl: './img/Iogurte_Vegano_Morango.jpg'
@@ -66,17 +67,15 @@ nome: 'Sobremesa Vegana 100g',
       nome: 'Cestas Sem Caneca Personalizada ',
          descricao: 'contém: Pão Integral ou Vegano, Geleia de Chia, Bolo de 150g, Cupcakes de bolo de banana ',
          valor: ' A partir R$70,00',
-         imgUrl: './img/cesta-de-comidas.jpg'
+         imgUrl: './img/cesta-com-vinho.jpg'
       },
 
       {
-         nome: 'Sacolas Personalizada ',
+         nome: 'Sacolas Personalizada',
             descricao: 'contém: Pão Integral ou Vegano, Geleia de Chia, Bolo de cacau 150g ou Cupcakes de bolo de banana ',
             valor: ' A partir R$60,00',
-            imgUrl: './img/sacola-presenteavel.jpg'
-         },
-   
-
-]
+            imgUrl: './img/sacola-produtos-presenteavel.jpg'
+         }
+   ]
 
 

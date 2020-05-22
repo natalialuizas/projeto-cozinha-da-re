@@ -35,6 +35,16 @@
   .card__border {
     border: none !important;
   }
+
+  
+
+  .card__test{
+    height: 35px;
+  }
+
+  .card__test2{
+    height: 70px;
+  }
   
   .card__box__img {
     overflow: hidden;
