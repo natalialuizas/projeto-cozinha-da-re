@@ -16,5 +16,31 @@
 
 .contato h3{
     text-align: center;
- 
 }
+.contato input, .form-control{ 
+    border: 1px solid #4D6737;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+
+}
+
+.btn-enviar {
+    border: 1px solid #4D6737;
+    padding: 10px 60px;
+    border-radius: 8px;
+    color: #4D6737;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .btn-enviar:hover{
+    background-color: #4D6737;
+    color: white;
+    text-decoration: none;
+  }
