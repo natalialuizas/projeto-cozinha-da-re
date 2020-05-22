@@ -3,13 +3,15 @@ const criarCardsProdutos = (produtos) =>
     produtos.reduce((accumulator, {nome,descricao,valor,imgUrl}) => {
         
         accumulator +=`
-        <div class="card">
-                        <img class="card-img-top" src="${imgUrl}" alt="Imagem de capa do card">
-                        <div class="card-body">
-                            <h5 class="card-title text-left">${nome}</h5>
-                            <p class="card-text text-left text-descricao">${descricao}</p>
+        <div class="card card__border">
+        <div class="card__box__img">
+                        <img class="card-img-top card__img" src="${imgUrl}" alt="Imagem de capa do card">
+                        </div>
+                        <div class="card-body d-flex flex-column align-items-center">
+                            <h5 class="card-title titulo__produto-card">${nome}</h5>
+                            <p class="card-text text__descricao">${descricao}</p>
                             <div class="card-informacao ">
-                                <p class="card-text text-left text-preco">${valor}</p>
+                                <p class="card-text text__preco">${valor}</p>
                                 
                                 <div class="card-delivery">
                                     <a  class="btn-comprar" href="https://api.whatsapp.com/send?phone=5511988390192&text=trouxa">
@@ -42,29 +44,27 @@ const carregarCards = () => {
 
     $('.card-deck').slick({
      infinite: true,
-     slidesToShow: 3,
-     slidesToScroll: 3,
+     slidesToShow: 4,
+     slidesToScroll: 4,
      prevArrow: $("#arrow-prev"), 
      nextArrow: $("#arrow-next"), 
      responsive: [
        {
-         breakpoint: 1024,
+         breakpoint: 1200,
          settings: {
            slidesToShow: 3,
-           slidesToScroll: 3,
-           infinite: true,
-           dots: true
+           slidesToScroll: 3, 
          }
        },
        {
-         breakpoint: 600,
+         breakpoint: 985,
          settings: {
            slidesToShow: 2,
            slidesToScroll: 2
          }
        },
        {
-         breakpoint: 480,
+         breakpoint: 760,
          settings: {
            slidesToShow: 1,
            slidesToScroll: 1
