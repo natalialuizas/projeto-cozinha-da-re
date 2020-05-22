@@ -3,12 +3,6 @@
     background-color: #4D6737; 
 }
 
-.text-font {
-    font-size: x-large;
-    font-family: 'Archivo Black', sans-serif;
-    font-family: 'Monda', sans-serif;
-    font-family: 'Sarabun', sans-serif;
-}
 
 .text-nav {
     font-size: larger;
@@ -20,39 +14,25 @@ a:hover {
 }
 
 .img-banner {
-    height: 85vh;
+    height: 64vh;
     object-fit: cover;
-    object-position: 0 45%; 
-    /* width:500px; */
+    object-position: 0 46%;
+    width: 100vw;
 }
 
 .logo {
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 290px;
-    left: 119px;
-    top: -41px;
+    width: 159px;
+    left: 20px;
+    top: -3px;
 }
 
-.logo-txt {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 150px;
-    left: 60px;
-    top: 850px;
+@media (max-width: 991px){
+
+    .logo {
+        margin-left: 200px;
+    }  
 }
-
-.img-bolo {
-
-}
-
-.img-chia {
-
-}
-
-.img-pao { 
-
-}
-
+    
