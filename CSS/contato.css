@@ -16,6 +16,8 @@
 
 .contato h3{
     text-align: center;
+    margin: 70px 20px 10px;
+    
 }
 .contato input, .form-control{ 
     border: 1px solid #4D6737;
@@ -37,6 +39,7 @@
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
+   
   }
 
   .btn-enviar:hover{
@@ -44,3 +47,20 @@
     color: white;
     text-decoration: none;
   }
+
+.caixa_contatopessoal{
+    margin-top: 30px;
+    margin-bottom: 14px;
+}
+
+.caixa_formulario .form-row{
+    margin-bottom: 14px;
+}
+
+.form-row-textarea{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.contato{
+    margin-bottom: 70px;
+}
